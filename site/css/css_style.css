@@ -5,6 +5,15 @@
     border: solid blue;
     
 }
+
+.index1z{
+position: absolute;
+left:32px;
+top:42px;
+z-index:-1;
+
+}
+
 .button{
     cursor: pointer;
     background-color: deepskyblue;
@@ -13,8 +22,12 @@
     text-align: center;
     color: white;
     border: none;
-    width: 24%;
+    width: 24.3%;
     
+}
+
+#current_page{
+border-radius: 30px;
 }
 #developers{
     color: blue;
@@ -59,3 +72,4 @@ a:hover {
 a:active {
     color:white;
 }
+
