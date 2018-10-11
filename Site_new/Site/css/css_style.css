@@ -32,7 +32,7 @@ body {
 .drop_down_img:hover .dropdown_img_content {
 
 
-    display: block;
+    display: inline-block;
 }
 
 #general_logo {
@@ -185,25 +185,25 @@ body {
 #left_lucas {
     position: relative;
     float: left;
-    left: 16%;
+    left: 8%;
 }
 
 #left_bogdan {
     position: relative;
     float: left;
-    left: 28%;
+    left: 20%;
 }
 
 #right_dementie {
     position: relative;
     float: left;
-    left: 31%;
+    left: 20%;
 }
 
 #right_justinas {
     position: relative;
     float: left;
-    left: 59%;
+    left: 48%;
 
 }
 
@@ -255,6 +255,8 @@ body {
 
 #coordinates {
     text-align: center;
+    color: black;
+    text-decoration: underline;
 }
 
 #contacts {
