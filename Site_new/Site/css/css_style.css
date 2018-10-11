@@ -21,6 +21,7 @@ body {
 .dropdown_img_content {
     display: none;
     position: absolute;
+    right: 0.1em;
     background-color: #f9f9f9;
     min-width: 24%;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -30,8 +31,6 @@ body {
 }
 
 .drop_down_img:hover .dropdown_img_content {
-
-
     display: inline-block;
 }
 
@@ -185,25 +184,25 @@ body {
 #left_lucas {
     position: relative;
     float: left;
-    left: 8%;
+    left: 14%;
 }
 
 #left_bogdan {
     position: relative;
     float: left;
-    left: 20%;
+    left: 26%;
 }
 
 #right_dementie {
     position: relative;
     float: left;
-    left: 20%;
+    left: 26%;
 }
 
 #right_justinas {
     position: relative;
     float: left;
-    left: 48%;
+    left: 54%;
 
 }
 
@@ -253,7 +252,7 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#coordinates {
+.coordinates {
     text-align: center;
     color: black;
     text-decoration: underline;
@@ -284,7 +283,7 @@ a:active {
 }
 
 #container {
-
+    background-color:lightgray;
     text-align: center;
     height: 105px;
     max-width: 700px;
@@ -304,4 +303,8 @@ a:active {
     position: absolute;
     left: 400px;
     padding-bottom: 30px;
+}
+#space{
+ line-height: 40;   
+    color: transparent;
 }
