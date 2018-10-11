@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+  <link rel="shortcur icon" href="../photo/icon/icon_title_bar.png"/>
+    <title>&copy; Soft Enterprise </title>
+    <link href="../css/css_style.css" type="text/css" rel="stylesheet" />
+
+
+    <img id="general_logo" src="../photo/img/logo.jpg">
+    <button class="button">
+        <a href="index.html">Home</a>
+    </button>
+      <div class="drop_down_dev">
+    <button  class="button" class="dropbtn">
+        
+        <a href="developers.html">Developers</a>
+        </button>
+        <div class="drop_content">
+            <a href="lucas.html">Lucas</a>
+            <a href="justinas.html">Justinas</a>
+            <a href="dementie.html">Dementie</a>
+            <a href="bogdan.html">Bogdan</a>
+        </div>
+
+    
+        </div>
+    <button class="button">
+        <a href="request.html">Request project</a>
+    </button>
+    <button id="current_page" class="button">
+        <a href="about_us.html">About Us &copy;</a>
+    </button>
+</head>
+
+<body>
+    <h1 id="welcome">Welcome to Software Enterprise</h1>
+    <img src = ../photo/img/black.enterprise.jpg alt="Our Enterprise" id="enterprise">
+     <h2 id="welcome">The SE Story: </h2>
+<div id="story" style="background-color:lightgray">
+    <p id="container">At SE, we believe there is a better way to do software for every company. A more valuable, less invasive way where customers are earned rather than bought. We're obsessively passionate about it, and our mission is to help people achieve it. We focus on software development and web development. That's why all we do comes from pleasure. We're excited to simplify the work for everyone through our software, education, and community. </p>
+    </div>
+    <h3 id="welcome"> Our Location: </h3>
+    
+    <div id="map">
+    <script  src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAMR92GvCTBFwWwMh0FSr0LdN8jik--EzM '></script>
+    <div style='overflow:hidden;height:500px;width:700px;'>
+        <div id='gmap_canvas' style='height:500px;width:700px;'></div>
+        <style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://add-map.com/'>embedded google map</a> 
+    <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=9d22bd430c1934ca39b27f1defb2489c6734e5da'></script>
+    <script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(55.87166629999999,9.886179900000002),mapTypeId: google.maps.MapTypeId.HYBRID};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(55.87166629999999,9.886179900000002)});infowindow = new google.maps.InfoWindow({content:'<strong>SE Location</strong><br> Chr M Østergaards Vej 4<br>8700 Horsens<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+    </script>
+        </div>
+    
+    
+    
+    <div id="footer"><!-- Footer -->
+        <div id="media">
+            <a href="https://facebook.com"><img class="icon" src="../photo/icon/facebook.jpg" alt="Facebook logo"></a>
+            <a href="https://plus.google.com"><img class="icon" src="../photo/icon/google+.png" alt="Google+ logo"></a>
+            <a href="https://twitter.com/?lang=en"><img class="icon" src="../photo/icon/twitter.png" alt="Twitter logo"></a>
+        </div>
+        <div id="contacts">
+            <p>You can find us in Horsens</p>
+            <p>Or contact us at: <a href="mailto:someone@example.com">someone@example.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
