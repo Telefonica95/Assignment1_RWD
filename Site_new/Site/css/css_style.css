@@ -7,6 +7,11 @@
     display: inline-block;
 
 }
+#enterprise{
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+}
 
     
 .dropdown_img_content {
