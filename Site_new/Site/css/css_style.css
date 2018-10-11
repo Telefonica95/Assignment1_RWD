@@ -12,7 +12,9 @@
     max-width: 100%;
     height: auto;
 }
-
+body{
+    background-image: url(../photo/img/middle_background.png);
+}
     
 .dropdown_img_content {
     display: none;
