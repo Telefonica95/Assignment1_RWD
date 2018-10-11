@@ -210,15 +210,45 @@
     height: 1.5em;
 }
 
+#container{
+    
+    text-align: center;
+    height: 105px;
+    max-width: 700px;
+    margin: auto;
+    border: 3px solid gray;
+    padding: 30px;    
+}
+#story
+{
+   
+   height: 171px;
+   
+}
+
 #media {
     position: fixed;
     bottom: 0.2em;
     left: 0.2em
 }
 
+
+#map{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#coordinates{
+   text-align: center;
+}
+
 #contacts {
     float: right;
 }
+
 
 a:link {
     color: white;
