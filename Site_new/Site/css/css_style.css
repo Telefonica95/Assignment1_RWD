@@ -7,15 +7,17 @@
     display: inline-block;
 
 }
-#enterprise{
+
+#enterprise {
     margin-top: 10px;
     max-width: 100%;
     height: auto;
 }
-body{
+
+body {
     background-image: url(../photo/img/middle_background.png);
 }
-    
+
 .dropdown_img_content {
     display: none;
     position: absolute;
@@ -40,13 +42,14 @@ body{
 
 }
 
-#text_align_describe{
+#text_align_describe {
     text-align: justify;
-  color:  darkblue;
+    color: darkblue;
     width: 300px;
 }
+
 .describe {
-    
+
     text-align: justify;
 
 }
@@ -59,8 +62,9 @@ body{
 
 }
 
-
-
+.main {
+    text-align: center;
+}
 
 #top {
 
@@ -88,7 +92,7 @@ body{
     text-align: center;
     color: white;
     border: none;
-    width: 24.5%;
+    width: 24.2%;
 }
 
 .button:active {
@@ -192,7 +196,7 @@ body{
 
 #right_dementie {
     position: relative;
-    float:left;
+    float: left;
     left: 31%;
 }
 
@@ -208,52 +212,54 @@ body{
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 5em;
     background-color: deepskyblue;
     color: white;
     text-align: center;
+    clear: both;
 }
 
 .icon {
     height: 1.5em;
 }
 
-#container{
-    
+#container {
+
     text-align: center;
     height: 105px;
     max-width: 700px;
     margin: auto;
     border: 3px solid gray;
-    padding: 30px;    
+    padding: 30px;
 }
-#story
-{
-   
-   height: 171px;
-   
+
+#story {
+
+    height: 171px;
+
 }
 
 #media {
-    position: fixed;
-    bottom: 0.2em;
-    left: 0.2em
+    position: absolute;
+    bottom: 1.5em;
+    left: 1em
 }
 
-
-#map{
+#map {
     max-width: 50%;
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    display: inline;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#coordinates{
-   text-align: center;
+#coordinates {
+    text-align: center;
 }
 
 #contacts {
     float: right;
+    margin-right: 1em;
 }
 
 
@@ -275,34 +281,25 @@ a:active {
     color: white;
 }
 
-#container{
-    
+#container {
+
     text-align: center;
     height: 105px;
     max-width: 700px;
     margin: auto;
     border: 3px solid gray;
-    padding: 30px;    
-}
-#story
-{
-   
-   height: 171px;
-   
+    padding: 30px;
 }
 
-#media {
-    position: fixed;
-    bottom: 0.2em;
-    left: 0.2em
+#story {
+
+    height: 171px;
+
 }
 
-#map{
-   margin-top: 35px;
-   position: absolute;
-   left: 400px;
-   padding-bottom: 30px;
-    
- 
-
+#map {
+    margin-top: 35px;
+    position: absolute;
+    left: 400px;
+    padding-bottom: 30px;
 }
