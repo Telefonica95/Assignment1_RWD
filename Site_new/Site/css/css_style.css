@@ -330,3 +330,14 @@ a:active {
 a.dropdown-item.dropdown-toggle.nav-link: hover {
     color: black;
 }
+
+
+
+#logo {
+    width: 100px;
+    height: 100px;
+    background-image: url('../photo/icon/icon_title_bar.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+}
