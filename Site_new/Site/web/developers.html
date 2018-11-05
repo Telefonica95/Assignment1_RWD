@@ -8,15 +8,18 @@
     <link href="../css/css_style.css" type="text/css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="../css/bootstrap.css" type="text/css" rel="stylesheet">
-    
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="../js/bootstrap.js"></script>
 </head>
 
 <body>
-     <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
-        <a class="navbar-brand" href="index.html"><div id="logo"></div></a> <!-- Need to insert the logo -->
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html">
+            <div id="logo"></div>
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavBar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -27,8 +30,8 @@
                 <li class="dropdown nav-item active"><a class="dropdown-toggle nav-link" href="developers.html">Developers</a>
                     <ul class="dropdown-menu dropdown-dark bg-primary">
                         <li><a class="nav-link dropdown-item" href="lucas.html">Lucas</a></li>
-                        <li><a class="nav-link dropdown-item" href="bogdan.html">Bogdab</a></li>
-                        <li><a class="nav-link dropdown-item" href ="dementie.html">Dementie</a></li>
+                        <li><a class="nav-link dropdown-item" href="bogdan.html">Bogdan</a></li>
+                        <li><a class="nav-link dropdown-item" href="dementie.html">Dementie</a></li>
                         <li><a class="nav-link dropdown-item" href="justinas.html">Justinas</a></li>
                     </ul>
                 </li>
@@ -37,10 +40,45 @@
             </ul>
         </div>
     </nav>
-    
-    <div class="main">
 
-        <div id="left_lucas">
+    <div class="main">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+
+            </ol>
+            <div class="carousel-inner w-50 -3 min-width-99px drop_down_img">
+                <div class="carousel-item active ">
+                    <img class="d-block w-100" src="../photo/img/dementie.jpg" alt="Bors Dementie">
+
+
+
+
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="../photo/img/lucas.jpg" alt="Lucas Kaas Møller">
+                </div>
+
+                <div class="carousel-item ">
+                    <img class="d-block w-100" src="../photo/img/Bogdan.jpg" alt="Pavliuc Bogdan">
+                </div>
+                <div class="carousel-item ">
+                    <img class="d-block w-100" src="../photo/img/Justinas.jpg" alt="Justinas Jancys">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next " href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="rounded float-left-sm">
             <h3 class="describe_left">Lucas Kaas Møller </h3>
 
             <div class="drop_down_img">
@@ -53,7 +91,7 @@
             </div>
         </div>
 
-        <div id="left_bogdan">
+        <div class="rounded float-left-sm">
             <h3 class="describe_left">Pavliuc Bogdan </h3>
 
             <div class="drop_down_img">
@@ -66,7 +104,7 @@
             </div>
         </div>
 
-        <div id="right_justinas">
+        <div class="rounded float-left-sm">
             <h3 class="describe_left"> Justinas Jancys</h3>
 
             <div class="drop_down_img">
@@ -79,7 +117,7 @@
             </div>
         </div>
 
-        <div id="right_dementie">
+        <div class="rounded float-left-sm">
             <h3 class="describe_left">Bors Dementie </h3>
 
             <div class="drop_down_img">
@@ -92,9 +130,7 @@
             </div>
         </div>
     </div>
-    <space>.</space>
-    <space id="space">.</space>
-    <space>.</space>
+
     <div id="footer">
         <!-- Footer -->
         <div id="media">
