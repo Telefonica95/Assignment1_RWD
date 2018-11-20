@@ -1,14 +1,15 @@
 * head {
     background-color: aquamarine;
 }
+
 /*Used in the developers page to control div elements*/
-.drop_down_img {
+/*.drop_down_img {
     position: relative;
     display: inline-block;
 }
 /*Picture styling*/
 #enterprise {
-    margin-top: 10px;
+    margin-top: 1%;
     max-width: 100%;
     height: auto;
 }
@@ -17,8 +18,9 @@ body {
     background-image: url(../photo/img/middle_background.png);
     width: 100%;
 }
+
 /*Used in the developers page to control div elements*/
-.dropdown_img_content {
+/*.dropdown_img_content {
     display: none;
     position: absolute;
     right: 0.1em;
@@ -30,34 +32,29 @@ body {
 
 }
 /*Used in the developers page to control div elements*/
-.drop_down_img:hover .dropdown_img_content {
+/*.drop_down_img:hover .dropdown_img_content {
     display: inline-block;
 }
 /*Used in individual profiles to align text below the picture*/
 #text_align_describe {
-    text-align: justify;
     color: darkblue;
-    width: 300px;
-}
-/*Text alignment in the individual pages*/
-.describe {
-
-    text-align: justify;
-
+    width: auto;
 }
 
 /*Main content div alignment*/
 .main {
     text-align: center;
 }
+
 /*Photo styling in developers.html*/
 .border_on_photo {
     border-style: solid;
     border-color: burlywood;
 
 }
+
 /*Photo styling in developers.html*/
-.border_on_photo1 {
+/*.border_on_photo1 {
     border-radius: 50%;
     width: 100px;
     height: 100px;
@@ -68,7 +65,6 @@ body {
 
 /*Footer styling*/
 #footer {
-    position: sticky;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -78,30 +74,25 @@ body {
     text-align: center;
     clear: both;
 }
+
 /*Footer icon sizing*/
 .icon {
     height: 1.5em;
 }
+
 /*Footer icon placement*/
 #media {
-    position: absolute;
     bottom: 1.5em;
     left: 1em
 }
-/*Map styling in about_us.html*/
-#map {
-    max-width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+
 /*Text styling in about_us.html*/
 .coordinates {
     text-align: center;
     color: black;
     text-decoration: underline;
 }
+
 /*Footer div with contacts placement*/
 #contacts {
     float: right;
@@ -113,13 +104,16 @@ a:link {
     color: white;
     text-decoration: underline;
 }
+
 a:visited {
     color: white;
 }
+
 a:hover {
     color: white;
     text-decoration: underline;
 }
+
 a:active {
     color: white;
 }
@@ -128,48 +122,27 @@ a:active {
 /*Text styling in about_us.html*/
 #container {
     background-color: lightgray;
-    text-align: justify;
     height: 100%;
     max-width: 80%;
     margin: auto;
     border: 3px solid gray;
-    padding: 30px;
+    padding: 4%;
 }
 
 /*Nav bar dropdown styling*/
-.dropdown-submenu {
-    position: relative;
-}
-/*Nav bar dropdown styling*/
-.dropdown-submenu a::after {
-    transform: rotate(-90deg);
-    position: absolute;
-    right: 0px;
-    top: 50%;
-}
-/*Nav bar dropdown styling*/
-.dropdown:hover .dropdown-menu,
-.dropdown-submenu:focus .dropdown-menu {
+.dropdown:hover .dropdown-menu {
     display: flex;
     flex-direction: column;
-    position: absolute !important;
 }
+
 /*What happens when the screen is smaller*/
 @media screen and (max-width: 576px) {
     .dropdown-menu {
         width: 50%;
     }
 
-    .dropdown-menu .dropdown-submenu {
+    .dropdown-menu {
         width: auto;
-    }
-
-    .dropdown-submenu:hover .dropdown-menu,
-    .dropdown-submenu:focus .dropdown-menu {
-        display: flex;
-        flex-direction: column;
-        position: absolute !important;
-        margin-top: -30px;
     }
 
     #java {
@@ -180,10 +153,7 @@ a:active {
         width: 100%;
     }
 }
-/*Nav bar dropdown styling*/
-a.dropdown-item.dropdown-toggle.nav-link: hover {
-    color: black;
-}
+
 /*Logo styling*/
 #logo {
     width: 100px;
@@ -192,4 +162,12 @@ a.dropdown-item.dropdown-toggle.nav-link: hover {
     background-repeat: no-repeat;
     background-size: contain;
     background-color: white;
+}
+
+.grid-striped .row:nth-of-type(odd) {
+    background-color: rgba(13, 0, 0, .1);
+}
+
+.grid-striped .row:nth-of-type(even) {
+    background-color: rgba(0, 0, 0, .4);
 }
